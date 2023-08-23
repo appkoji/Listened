@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+ <asset>
+  <contributor>
+   <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
+  </contributor>
+  <created>2018-01-22T15:44:27Z</created>
+  <modified>2018-01-22T15:44:27Z</modified>
+  <unit meter="1.000000"/>
+  <up_axis>Z_UP</up_axis>
+ </asset>
+ <library_animations>
+  <animation id="Zack-cover-1" name="Zack-cover-1">
+   <animation id="keyframedAnimations1">
+    <source id="genericSource2">
+     <float_array id="Zack-cover-13-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-13-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource4">
+     <float_array id="Zack-cover-15-array" count="80">0.864391 -0.290555 0.410374 -5.96046e-08 -2.08616e-07 0.816143 0.57785 0.387406 -0.502821 -0.499489 0.705466 1.19209e-07 0 0 0 1 0.864391 -0.290555 0.410374 -5.96046e-08 -2.08616e-07 0.816143 0.57785 0.387406 -0.502821 -0.499489 0.705466 1.19209e-07 0 0 0 1 0.864391 -0.290555 0.410374 -5.96046e-08 -2.08616e-07 0.816143 0.57785 0.387406 -0.502821 -0.499489 0.705466 1.19209e-07 0 0 0 1 0.864391 -0.290555 0.410374 -5.96046e-08 -2.08616e-07 0.816143 0.57785 0.387406 -0.502821 -0.499489 0.705466 1.19209e-07 0 0 0 1 0.864391 -0.290555 0.410374 -5.96046e-08 -2.08616e-07 0.816143 0.57785 0.387406 -0.502821 -0.499489 0.705466 1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-15-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-16">
+     <input semantic="INPUT" source="#genericSource2"/>
+     <input semantic="OUTPUT" source="#genericSource4"/>
+    </sampler>
+    <channel source="#Zack-cover-16" target="Hand_L_002/SID_1"/>
+   </animation>
+   <animation id="keyframedAnimations7">
+    <source id="genericSource8">
+     <float_array id="Zack-cover-19-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-19-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource10">
+     <float_array id="Zack-cover-111-array" count="80">-0.999814 -0.018637 -0.00490625 8.9407e-08 3.58373e-06 0.254399 -0.967099 1.13887 0.0192719 -0.96692 -0.254351 -5.96046e-08 0 0 0 1 -0.999814 -0.018637 -0.00490625 8.9407e-08 3.58373e-06 0.254399 -0.967099 1.13887 0.0192719 -0.96692 -0.254351 -5.96046e-08 0 0 0 1 -0.999814 -0.018637 -0.00490625 8.9407e-08 3.58373e-06 0.254399 -0.967099 1.13887 0.0192719 -0.96692 -0.254351 -5.96046e-08 0 0 0 1 -0.999814 -0.018637 -0.00490625 8.9407e-08 3.58373e-06 0.254399 -0.967099 1.13887 0.0192719 -0.96692 -0.254351 -5.96046e-08 0 0 0 1 -0.999814 -0.018637 -0.00490625 8.9407e-08 3.58373e-06 0.254399 -0.967099 1.13887 0.0192719 -0.96692 -0.254351 -5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-111-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-112">
+     <input semantic="INPUT" source="#genericSource8"/>
+     <input semantic="OUTPUT" source="#genericSource10"/>
+    </sampler>
+    <channel source="#Zack-cover-112" target="Feet_R/SID_2"/>
+   </animation>
+   <animation id="keyframedAnimations13">
+    <source id="genericSource14">
+     <float_array id="Zack-cover-115-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-115-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource16">
+     <float_array id="Zack-cover-117-array" count="80">0.972791 -0.175982 0.15069 5.96046e-08 0.23155 0.716474 -0.658065 0.869486 0.0078415 0.675052 0.737729 5.96046e-08 0 0 0 1 0.972791 -0.175982 0.15069 5.96046e-08 0.23155 0.716474 -0.658065 0.869486 0.0078415 0.675052 0.737729 5.96046e-08 0 0 0 1 0.972791 -0.175982 0.15069 5.96046e-08 0.23155 0.716474 -0.658065 0.869486 0.0078415 0.675052 0.737729 5.96046e-08 0 0 0 1 0.972791 -0.175982 0.15069 5.96046e-08 0.23155 0.716474 -0.658065 0.869486 0.0078415 0.675052 0.737729 5.96046e-08 0 0 0 1 0.972791 -0.175982 0.15069 5.96046e-08 0.23155 0.716474 -0.658065 0.869486 0.0078415 0.675052 0.737729 5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-117-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-118">
+     <input semantic="INPUT" source="#genericSource14"/>
+     <input semantic="OUTPUT" source="#genericSource16"/>
+    </sampler>
+    <channel source="#Zack-cover-118" target="Hand_L/SID_3"/>
+   </animation>
+   <animation id="keyframedAnimations19">
+    <source id="genericSource20">
+     <float_array id="Zack-cover-121-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-121-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource22">
+     <float_array id="Zack-cover-123-array" count="80">0.872764 0.190114 -0.4496 0 -0.0440723 0.947969 0.315298 0.330961 0.486149 -0.255365 0.835732 0 0 0 0 1 0.872764 0.190114 -0.4496 0 -0.0440723 0.947969 0.315298 0.330961 0.486149 -0.255365 0.835732 0 0 0 0 1 0.872764 0.190114 -0.4496 0 -0.0440723 0.947969 0.315298 0.330961 0.486149 -0.255365 0.835732 0 0 0 0 1 0.872764 0.190114 -0.4496 0 -0.0440723 0.947969 0.315298 0.330961 0.486149 -0.255365 0.835732 0 0 0 0 1 0.872764 0.190114 -0.4496 0 -0.0440723 0.947969 0.315298 0.330961 0.486149 -0.255365 0.835732 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-123-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-124">
+     <input semantic="INPUT" source="#genericSource20"/>
+     <input semantic="OUTPUT" source="#genericSource22"/>
+    </sampler>
+    <channel source="#Zack-cover-124" target="Hand_L_001/SID_4"/>
+   </animation>
+   <animation id="keyframedAnimations25">
+    <source id="genericSource26">
+     <float_array id="Zack-cover-127-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-127-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource28">
+     <float_array id="Zack-cover-129-array" count="80">0.98441 -0.00785874 -0.175716 -7.10543e-15 0.0537565 0.964644 0.258016 1.54043 0.167476 -0.263439 0.950027 2.98023e-08 0 0 0 1 0.98441 -0.0126692 -0.175435 -7.10543e-15 0.0537565 0.97135 0.231494 1.54043 0.167476 -0.237316 0.956887 2.98023e-08 0 0 0 1 0.98441 -0.0156638 -0.175193 -7.10543e-15 0.0537565 0.975162 0.21487 1.54043 0.167476 -0.220938 0.960801 2.98023e-08 0 0 0 1 0.98441 -0.0108588 -0.175556 -7.10543e-15 0.0537565 0.96891 0.241502 1.54043 0.167476 -0.247174 0.954388 2.98023e-08 0 0 0 1 0.98441 -0.00785874 -0.175716 -7.10543e-15 0.0537565 0.964644 0.258016 1.54043 0.167476 -0.263439 0.950027 2.98023e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-129-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-130">
+     <input semantic="INPUT" source="#genericSource26"/>
+     <input semantic="OUTPUT" source="#genericSource28"/>
+    </sampler>
+    <channel source="#Zack-cover-130" target="Chest/SID_5"/>
+   </animation>
+   <animation id="keyframedAnimations31">
+    <source id="genericSource32">
+     <float_array id="Zack-cover-133-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-133-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource34">
+     <float_array id="Zack-cover-135-array" count="80">0.90802 0.382988 -0.169765 -2.98023e-08 -0.402961 0.687674 -0.603926 0.869486 -0.114553 0.616786 0.778751 0 0 0 0 1 0.90802 0.382988 -0.169765 -2.98023e-08 -0.402961 0.687674 -0.603926 0.869486 -0.114553 0.616786 0.778751 0 0 0 0 1 0.90802 0.382988 -0.169765 -2.98023e-08 -0.402961 0.687674 -0.603926 0.869486 -0.114553 0.616786 0.778751 0 0 0 0 1 0.90802 0.382988 -0.169765 -2.98023e-08 -0.402961 0.687674 -0.603926 0.869486 -0.114553 0.616786 0.778751 0 0 0 0 1 0.90802 0.382988 -0.169765 -2.98023e-08 -0.402961 0.687674 -0.603926 0.869486 -0.114553 0.616786 0.778751 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-135-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-136">
+     <input semantic="INPUT" source="#genericSource32"/>
+     <input semantic="OUTPUT" source="#genericSource34"/>
+    </sampler>
+    <channel source="#Zack-cover-136" target="Hand_R/SID_6"/>
+   </animation>
+   <animation id="keyframedAnimations37">
+    <source id="genericSource38">
+     <float_array id="Zack-cover-139-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-139-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource40">
+     <float_array id="Zack-cover-141-array" count="80">0.864391 0.290555 -0.410374 -5.96046e-08 1.3411e-07 0.816142 0.577851 0.387406 0.502821 -0.499489 0.705466 0 0 0 0 1 0.864391 0.290555 -0.410374 -5.96046e-08 1.3411e-07 0.816142 0.577851 0.387406 0.502821 -0.499489 0.705466 0 0 0 0 1 0.864391 0.290555 -0.410374 -5.96046e-08 1.3411e-07 0.816142 0.577851 0.387406 0.502821 -0.499489 0.705466 0 0 0 0 1 0.864391 0.290555 -0.410374 -5.96046e-08 1.3411e-07 0.816142 0.577851 0.387406 0.502821 -0.499489 0.705466 0 0 0 0 1 0.864391 0.290555 -0.410374 -5.96046e-08 1.3411e-07 0.816142 0.577851 0.387406 0.502821 -0.499489 0.705466 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-141-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-142">
+     <input semantic="INPUT" source="#genericSource38"/>
+     <input semantic="OUTPUT" source="#genericSource40"/>
+    </sampler>
+    <channel source="#Zack-cover-142" target="Hand_R_002/SID_7"/>
+   </animation>
+   <animation id="keyframedAnimations43">
+    <source id="genericSource44">
+     <float_array id="Zack-cover-145-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-145-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource46">
+     <float_array id="Zack-cover-147-array" count="80">-0.969799 0.19356 -0.14841 0.902628 0.00163928 0.613625 0.789596 1.2985 0.243902 0.765506 -0.59541 0.319355 0 0 0 1 -0.969799 0.19356 -0.14841 0.902628 0.00163928 0.613625 0.789596 1.2985 0.243902 0.765506 -0.59541 0.319355 0 0 0 1 -0.969799 0.19356 -0.14841 0.902628 0.00163928 0.613625 0.789596 1.2985 0.243902 0.765506 -0.59541 0.319355 0 0 0 1 -0.969799 0.19356 -0.14841 0.902628 0.00163928 0.613625 0.789596 1.2985 0.243902 0.765506 -0.59541 0.319355 0 0 0 1 -0.969799 0.19356 -0.14841 0.902628 0.00163928 0.613625 0.789596 1.2985 0.243902 0.765506 -0.59541 0.319355 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-147-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-148">
+     <input semantic="INPUT" source="#genericSource44"/>
+     <input semantic="OUTPUT" source="#genericSource46"/>
+    </sampler>
+    <channel source="#Zack-cover-148" target="UArm_L/SID_8"/>
+   </animation>
+   <animation id="keyframedAnimations49">
+    <source id="genericSource50">
+     <float_array id="Zack-cover-151-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-151-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource52">
+     <float_array id="Zack-cover-153-array" count="80">0.984065 -0.168117 -0.0579054 -5.96046e-08 0.177805 0.93291 0.313153 0.300699 0.00137418 -0.318458 0.947936 -1.19209e-07 0 0 0 1 0.984065 -0.168117 -0.0579054 -5.96046e-08 0.177805 0.93291 0.313153 0.300699 0.00137418 -0.318458 0.947936 -1.19209e-07 0 0 0 1 0.984065 -0.168117 -0.0579054 -5.96046e-08 0.177805 0.93291 0.313153 0.300699 0.00137418 -0.318458 0.947936 -1.19209e-07 0 0 0 1 0.984065 -0.168117 -0.0579054 -5.96046e-08 0.177805 0.93291 0.313153 0.300699 0.00137418 -0.318458 0.947936 -1.19209e-07 0 0 0 1 0.984065 -0.168117 -0.0579054 -5.96046e-08 0.177805 0.93291 0.313153 0.300699 0.00137418 -0.318458 0.947936 -1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-153-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-154">
+     <input semantic="INPUT" source="#genericSource50"/>
+     <input semantic="OUTPUT" source="#genericSource52"/>
+    </sampler>
+    <channel source="#Zack-cover-154" target="LArm_R_002/SID_9"/>
+   </animation>
+   <animation id="keyframedAnimations55">
+    <source id="genericSource56">
+     <float_array id="Zack-cover-157-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-157-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource58">
+     <float_array id="Zack-cover-159-array" count="80">0.931586 -0.350207 -0.0974795 -5.96046e-08 0.351529 0.936169 -0.00383016 0.262867 0.0925986 -0.0306988 0.99523 0 0 0 0 1 0.931586 -0.350207 -0.0974795 -5.96046e-08 0.351529 0.936169 -0.00383016 0.262867 0.0925986 -0.0306988 0.99523 0 0 0 0 1 0.931586 -0.350207 -0.0974795 -5.96046e-08 0.351529 0.936169 -0.00383016 0.262867 0.0925986 -0.0306988 0.99523 0 0 0 0 1 0.931586 -0.350207 -0.0974795 -5.96046e-08 0.351529 0.936169 -0.00383016 0.262867 0.0925986 -0.0306988 0.99523 0 0 0 0 1 0.931586 -0.350207 -0.0974795 -5.96046e-08 0.351529 0.936169 -0.00383016 0.262867 0.0925986 -0.0306988 0.99523 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-159-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-160">
+     <input semantic="INPUT" source="#genericSource56"/>
+     <input semantic="OUTPUT" source="#genericSource58"/>
+    </sampler>
+    <channel source="#Zack-cover-160" target="LArm_L_003/SID_10"/>
+   </animation>
+   <animation id="keyframedAnimations61">
+    <source id="genericSource62">
+     <float_array id="Zack-cover-163-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-163-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource64">
+     <float_array id="Zack-cover-165-array" count="80">0.382977 -0.920147 -0.0815939 0 0.918283 0.388822 -0.0746601 1.09462 0.100424 -0.0463331 0.993865 4.76837e-07 0 0 0 1 0.382977 -0.920147 -0.0815939 0 0.918283 0.388822 -0.0746601 1.09462 0.100424 -0.0463331 0.993865 4.76837e-07 0 0 0 1 0.382977 -0.920147 -0.0815939 0 0.918283 0.388822 -0.0746601 1.09462 0.100424 -0.0463331 0.993865 4.76837e-07 0 0 0 1 0.382977 -0.920147 -0.0815939 0 0.918283 0.388822 -0.0746601 1.09462 0.100424 -0.0463331 0.993865 4.76837e-07 0 0 0 1 0.382977 -0.920147 -0.0815939 0 0.918283 0.388822 -0.0746601 1.09462 0.100424 -0.0463331 0.993865 4.76837e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-165-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-166">
+     <input semantic="INPUT" source="#genericSource62"/>
+     <input semantic="OUTPUT" source="#genericSource64"/>
+    </sampler>
+    <channel source="#Zack-cover-166" target="LArm_R/SID_11"/>
+   </animation>
+   <animation id="keyframedAnimations67">
+    <source id="genericSource68">
+     <float_array id="Zack-cover-169-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-169-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource70">
+     <float_array id="Zack-cover-171-array" count="80">0.997558 0.013807 0.0684593 2.98023e-08 -0.00299792 0.987825 -0.155542 1.37242 -0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 0.013807 0.0684593 2.98023e-08 -0.00299792 0.987825 -0.155542 1.37242 -0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 0.013807 0.0684593 2.98023e-08 -0.00299792 0.987825 -0.155542 1.37242 -0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 0.013807 0.0684593 2.98023e-08 -0.00299792 0.987825 -0.155542 1.37242 -0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 0.013807 0.0684593 2.98023e-08 -0.00299792 0.987825 -0.155542 1.37242 -0.0697734 0.154957 0.985454 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-171-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-172">
+     <input semantic="INPUT" source="#genericSource68"/>
+     <input semantic="OUTPUT" source="#genericSource70"/>
+    </sampler>
+    <channel source="#Zack-cover-172" target="LLeg_R/SID_12"/>
+   </animation>
+   <animation id="keyframedAnimations73">
+    <source id="genericSource74">
+     <float_array id="Zack-cover-175-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-175-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource76">
+     <float_array id="Zack-cover-177-array" count="80">0.00836338 0.99663 0.0815942 0 -0.997104 0.0144798 -0.0746602 1.09462 -0.0755901 -0.0807334 0.993865 0 0 0 0 1 0.00836338 0.99663 0.0815942 0 -0.997104 0.0144798 -0.0746602 1.09462 -0.0755901 -0.0807334 0.993865 0 0 0 0 1 0.00836338 0.99663 0.0815942 0 -0.997104 0.0144798 -0.0746602 1.09462 -0.0755901 -0.0807334 0.993865 0 0 0 0 1 0.00836338 0.99663 0.0815942 0 -0.997104 0.0144798 -0.0746602 1.09462 -0.0755901 -0.0807334 0.993865 0 0 0 0 1 0.00836338 0.99663 0.0815942 0 -0.997104 0.0144798 -0.0746602 1.09462 -0.0755901 -0.0807334 0.993865 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-177-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-178">
+     <input semantic="INPUT" source="#genericSource74"/>
+     <input semantic="OUTPUT" source="#genericSource76"/>
+    </sampler>
+    <channel source="#Zack-cover-178" target="LArm_L/SID_13"/>
+   </animation>
+   <animation id="keyframedAnimations79">
+    <source id="genericSource80">
+     <float_array id="Zack-cover-181-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-181-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource82">
+     <float_array id="Zack-cover-183-array" count="80">1 0 2.38419e-07 0 2.38416e-07 -0.00478616 -0.999988 0.224606 1.14111e-09 0.999988 -0.00478602 2.84111 0 0 0 1 1 0 2.38419e-07 0 2.38416e-07 -0.00478616 -0.999988 0.224606 1.14111e-09 0.999988 -0.00478602 2.84111 0 0 0 1 1 0 2.38419e-07 0 2.38416e-07 -0.00478616 -0.999988 0.224606 1.14111e-09 0.999988 -0.00478602 2.84111 0 0 0 1 1 0 2.38419e-07 0 2.38416e-07 -0.00478616 -0.999988 0.224606 1.14111e-09 0.999988 -0.00478602 2.84111 0 0 0 1 1 0 2.38419e-07 0 2.38416e-07 -0.00478616 -0.999988 0.224606 1.14111e-09 0.999988 -0.00478602 2.84111 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-183-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-184">
+     <input semantic="INPUT" source="#genericSource80"/>
+     <input semantic="OUTPUT" source="#genericSource82"/>
+    </sampler>
+    <channel source="#Zack-cover-184" target="Torso/SID_14"/>
+   </animation>
+   <animation id="keyframedAnimations85">
+    <source id="genericSource86">
+     <float_array id="Zack-cover-187-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-187-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource88">
+     <float_array id="Zack-cover-189-array" count="80">-0.997587 -0.068726 0.00980949 0 -0.0433942 0.507013 -0.860845 1.13887 0.0541888 -0.859194 -0.508772 -5.96046e-08 0 0 0 1 -0.997587 -0.068726 0.00980949 0 -0.0433942 0.507013 -0.860845 1.13887 0.0541888 -0.859194 -0.508772 -5.96046e-08 0 0 0 1 -0.997587 -0.068726 0.00980949 0 -0.0433942 0.507013 -0.860845 1.13887 0.0541888 -0.859194 -0.508772 -5.96046e-08 0 0 0 1 -0.997587 -0.068726 0.00980949 0 -0.0433942 0.507013 -0.860845 1.13887 0.0541888 -0.859194 -0.508772 -5.96046e-08 0 0 0 1 -0.997587 -0.068726 0.00980949 0 -0.0433942 0.507013 -0.860845 1.13887 0.0541888 -0.859194 -0.508772 -5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-189-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-190">
+     <input semantic="INPUT" source="#genericSource86"/>
+     <input semantic="OUTPUT" source="#genericSource88"/>
+    </sampler>
+    <channel source="#Zack-cover-190" target="Feet_L/SID_15"/>
+   </animation>
+   <animation id="keyframedAnimations91">
+    <source id="genericSource92">
+     <float_array id="Zack-cover-193-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-193-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource94">
+     <float_array id="Zack-cover-195-array" count="80">1 -1.80304e-06 -4.04641e-05 1.49012e-08 -1.8321e-05 0.870745 -0.491734 0.627971 3.61428e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 -1.80304e-06 -4.04641e-05 1.49012e-08 -1.8321e-05 0.870745 -0.491734 0.627971 3.61428e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 -1.80304e-06 -4.04641e-05 1.49012e-08 -1.8321e-05 0.870745 -0.491734 0.627971 3.61428e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 -1.80304e-06 -4.04641e-05 1.49012e-08 -1.8321e-05 0.870745 -0.491734 0.627971 3.61428e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 -1.80304e-06 -4.04641e-05 1.49012e-08 -1.8321e-05 0.870745 -0.491734 0.627971 3.61428e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-195-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-196">
+     <input semantic="INPUT" source="#genericSource92"/>
+     <input semantic="OUTPUT" source="#genericSource94"/>
+    </sampler>
+    <channel source="#Zack-cover-196" target="Feet_R_001/SID_16"/>
+   </animation>
+   <animation id="keyframedAnimations97">
+    <source id="genericSource98">
+     <float_array id="Zack-cover-199-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-199-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource100">
+     <float_array id="Zack-cover-1101-array" count="80">1 1.78814e-06 4.0397e-05 0 1.83266e-05 0.870746 -0.491734 0.627971 -3.60757e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 1.78814e-06 4.0397e-05 0 1.83266e-05 0.870746 -0.491734 0.627971 -3.60757e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 1.78814e-06 4.0397e-05 0 1.83266e-05 0.870746 -0.491734 0.627971 -3.60757e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 1.78814e-06 4.0397e-05 0 1.83266e-05 0.870746 -0.491734 0.627971 -3.60757e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 1 1.78814e-06 4.0397e-05 0 1.83266e-05 0.870746 -0.491734 0.627971 -3.60757e-05 0.491734 0.870745 1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1101-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1102">
+     <input semantic="INPUT" source="#genericSource98"/>
+     <input semantic="OUTPUT" source="#genericSource100"/>
+    </sampler>
+    <channel source="#Zack-cover-1102" target="Feet_L_001/SID_17"/>
+   </animation>
+   <animation id="keyframedAnimations103">
+    <source id="genericSource104">
+     <float_array id="Zack-cover-1105-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1105-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource106">
+     <float_array id="Zack-cover-1107-array" count="80">-0.958614 -0.277444 0.0639127 -0.627072 -0.0710506 0.450501 0.889944 1.13881 -0.275703 0.848571 -0.451569 0.666662 0 0 0 1 -0.958614 -0.277444 0.0639127 -0.627072 -0.0710506 0.450501 0.889944 1.13881 -0.275703 0.848571 -0.451569 0.666662 0 0 0 1 -0.958614 -0.277444 0.0639127 -0.627072 -0.0710506 0.450501 0.889944 1.13881 -0.275703 0.848571 -0.451569 0.666662 0 0 0 1 -0.958614 -0.277444 0.0639127 -0.627072 -0.0710506 0.450501 0.889944 1.13881 -0.275703 0.848571 -0.451569 0.666662 0 0 0 1 -0.958614 -0.277444 0.0639127 -0.627072 -0.0710506 0.450501 0.889944 1.13881 -0.275703 0.848571 -0.451569 0.666662 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1107-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1108">
+     <input semantic="INPUT" source="#genericSource104"/>
+     <input semantic="OUTPUT" source="#genericSource106"/>
+    </sampler>
+    <channel source="#Zack-cover-1108" target="UArm_R/SID_18"/>
+   </animation>
+   <animation id="keyframedAnimations109">
+    <source id="genericSource110">
+     <float_array id="Zack-cover-1111-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1111-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource112">
+     <float_array id="Zack-cover-1113-array" count="80">0.931586 0.350207 0.0974795 0 -0.351529 0.936169 -0.00383025 0.262867 -0.0925987 -0.0306987 0.99523 0 0 0 0 1 0.931586 0.350207 0.0974795 0 -0.351529 0.936169 -0.00383025 0.262867 -0.0925987 -0.0306987 0.99523 0 0 0 0 1 0.931586 0.350207 0.0974795 0 -0.351529 0.936169 -0.00383025 0.262867 -0.0925987 -0.0306987 0.99523 0 0 0 0 1 0.931586 0.350207 0.0974795 0 -0.351529 0.936169 -0.00383025 0.262867 -0.0925987 -0.0306987 0.99523 0 0 0 0 1 0.931586 0.350207 0.0974795 0 -0.351529 0.936169 -0.00383025 0.262867 -0.0925987 -0.0306987 0.99523 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1113-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1114">
+     <input semantic="INPUT" source="#genericSource110"/>
+     <input semantic="OUTPUT" source="#genericSource112"/>
+    </sampler>
+    <channel source="#Zack-cover-1114" target="LArm_R_003/SID_19"/>
+   </animation>
+   <animation id="keyframedAnimations115">
+    <source id="genericSource116">
+     <float_array id="Zack-cover-1117-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1117-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource118">
+     <float_array id="Zack-cover-1119-array" count="80">0.861056 0.443075 -0.249535 -5.96046e-08 -0.506689 0.78906 -0.347346 0.869486 0.0429977 0.425521 0.903926 0 0 0 0 1 0.861056 0.443075 -0.249535 -5.96046e-08 -0.506689 0.78906 -0.347346 0.869486 0.0429977 0.425521 0.903926 0 0 0 0 1 0.861056 0.443075 -0.249535 -5.96046e-08 -0.506689 0.78906 -0.347346 0.869486 0.0429977 0.425521 0.903926 0 0 0 0 1 0.861056 0.443075 -0.249535 -5.96046e-08 -0.506689 0.78906 -0.347346 0.869486 0.0429977 0.425521 0.903926 0 0 0 0 1 0.861056 0.443075 -0.249535 -5.96046e-08 -0.506689 0.78906 -0.347346 0.869486 0.0429977 0.425521 0.903926 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1119-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1120">
+     <input semantic="INPUT" source="#genericSource116"/>
+     <input semantic="OUTPUT" source="#genericSource118"/>
+    </sampler>
+    <channel source="#Zack-cover-1120" target="LArm_L_001/SID_20"/>
+   </animation>
+   <animation id="keyframedAnimations121">
+    <source id="genericSource122">
+     <float_array id="Zack-cover-1123-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1123-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource124">
+     <float_array id="Zack-cover-1125-array" count="80">0.998892 0.0468698 -0.0040915 0.361571 0.0455205 -0.984778 -0.167749 0.108663 -0.0118908 0.167377 -0.985817 0.0226679 0 0 0 1 0.998892 0.0468698 -0.0040915 0.361571 0.0455205 -0.984778 -0.167749 0.108663 -0.0118908 0.167377 -0.985817 0.0226679 0 0 0 1 0.998892 0.0468698 -0.0040915 0.361571 0.0455205 -0.984778 -0.167749 0.108663 -0.0118908 0.167377 -0.985817 0.0226679 0 0 0 1 0.998892 0.0468698 -0.0040915 0.361571 0.0455205 -0.984778 -0.167749 0.108663 -0.0118908 0.167377 -0.985817 0.0226679 0 0 0 1 0.998892 0.0468698 -0.0040915 0.361571 0.0455205 -0.984778 -0.167749 0.108663 -0.0118908 0.167377 -0.985817 0.0226679 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1125-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1126">
+     <input semantic="INPUT" source="#genericSource122"/>
+     <input semantic="OUTPUT" source="#genericSource124"/>
+    </sampler>
+    <channel source="#Zack-cover-1126" target="ULeg_L/SID_21"/>
+   </animation>
+   <animation id="keyframedAnimations127">
+    <source id="genericSource128">
+     <float_array id="Zack-cover-1129-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1129-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource130">
+     <float_array id="Zack-cover-1131-array" count="80">0.944018 -0.266897 0.193896 5.96046e-08 0.317331 0.895315 -0.312589 0.869486 -0.0901688 0.356619 0.929888 0 0 0 0 1 0.944018 -0.266897 0.193896 5.96046e-08 0.317331 0.895315 -0.312589 0.869486 -0.0901688 0.356619 0.929888 0 0 0 0 1 0.944018 -0.266897 0.193896 5.96046e-08 0.317331 0.895315 -0.312589 0.869486 -0.0901688 0.356619 0.929888 0 0 0 0 1 0.944018 -0.266897 0.193896 5.96046e-08 0.317331 0.895315 -0.312589 0.869486 -0.0901688 0.356619 0.929888 0 0 0 0 1 0.944018 -0.266897 0.193896 5.96046e-08 0.317331 0.895315 -0.312589 0.869486 -0.0901688 0.356619 0.929888 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1131-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1132">
+     <input semantic="INPUT" source="#genericSource128"/>
+     <input semantic="OUTPUT" source="#genericSource130"/>
+    </sampler>
+    <channel source="#Zack-cover-1132" target="LArm_R_001/SID_22"/>
+   </animation>
+   <animation id="keyframedAnimations133">
+    <source id="genericSource134">
+     <float_array id="Zack-cover-1135-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1135-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource136">
+     <float_array id="Zack-cover-1137-array" count="80">0.951926 -0.030469 -0.304809 7.45058e-09 -0.0947116 0.917012 -0.387452 1.21404 0.291319 0.397695 0.870042 -2.98023e-08 0 0 0 1 0.951926 -0.0140485 -0.306006 7.45058e-09 -0.0947116 0.936504 -0.337624 1.21404 0.291319 0.350375 0.890152 -2.98023e-08 0 0 0 1 0.951926 -0.0242941 -0.305363 7.45058e-09 -0.0947116 0.924665 -0.368814 1.21404 0.291319 0.380005 0.877912 -2.98023e-08 0 0 0 1 0.951926 -0.0406652 -0.303617 7.45058e-09 -0.0947116 0.903515 -0.417961 1.21404 0.291319 0.426624 0.856228 -2.98023e-08 0 0 0 1 0.951926 -0.030469 -0.304809 7.45058e-09 -0.0947116 0.917012 -0.387452 1.21404 0.291319 0.397695 0.870042 -2.98023e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1137-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1138">
+     <input semantic="INPUT" source="#genericSource134"/>
+     <input semantic="OUTPUT" source="#genericSource136"/>
+    </sampler>
+    <channel source="#Zack-cover-1138" target="Neck/SID_23"/>
+   </animation>
+   <animation id="keyframedAnimations139">
+    <source id="genericSource140">
+     <float_array id="Zack-cover-1141-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1141-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource142">
+     <float_array id="Zack-cover-1143-array" count="80">0.872764 -0.190114 0.4496 -1.19209e-07 0.0440724 0.947969 0.315297 0.33096 -0.486149 -0.255365 0.835732 -5.96046e-08 0 0 0 1 0.872764 -0.190114 0.4496 -1.19209e-07 0.0440724 0.947969 0.315297 0.33096 -0.486149 -0.255365 0.835732 -5.96046e-08 0 0 0 1 0.872764 -0.190114 0.4496 -1.19209e-07 0.0440724 0.947969 0.315297 0.33096 -0.486149 -0.255365 0.835732 -5.96046e-08 0 0 0 1 0.872764 -0.190114 0.4496 -1.19209e-07 0.0440724 0.947969 0.315297 0.33096 -0.486149 -0.255365 0.835732 -5.96046e-08 0 0 0 1 0.872764 -0.190114 0.4496 -1.19209e-07 0.0440724 0.947969 0.315297 0.33096 -0.486149 -0.255365 0.835732 -5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1143-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1144">
+     <input semantic="INPUT" source="#genericSource140"/>
+     <input semantic="OUTPUT" source="#genericSource142"/>
+    </sampler>
+    <channel source="#Zack-cover-1144" target="Hand_R_001/SID_24"/>
+   </animation>
+   <animation id="keyframedAnimations145">
+    <source id="genericSource146">
+     <float_array id="Zack-cover-1147-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1147-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource148">
+     <float_array id="Zack-cover-1149-array" count="80">0.984065 0.168117 0.0579054 -2.98023e-08 -0.177805 0.93291 0.313153 0.300699 -0.00137411 -0.318458 0.947936 0 0 0 0 1 0.984065 0.168117 0.0579054 -2.98023e-08 -0.177805 0.93291 0.313153 0.300699 -0.00137411 -0.318458 0.947936 0 0 0 0 1 0.984065 0.168117 0.0579054 -2.98023e-08 -0.177805 0.93291 0.313153 0.300699 -0.00137411 -0.318458 0.947936 0 0 0 0 1 0.984065 0.168117 0.0579054 -2.98023e-08 -0.177805 0.93291 0.313153 0.300699 -0.00137411 -0.318458 0.947936 0 0 0 0 1 0.984065 0.168117 0.0579054 -2.98023e-08 -0.177805 0.93291 0.313153 0.300699 -0.00137411 -0.318458 0.947936 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1149-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1150">
+     <input semantic="INPUT" source="#genericSource146"/>
+     <input semantic="OUTPUT" source="#genericSource148"/>
+    </sampler>
+    <channel source="#Zack-cover-1150" target="LArm_L_002/SID_25"/>
+   </animation>
+   <animation id="keyframedAnimations151">
+    <source id="genericSource152">
+     <float_array id="Zack-cover-1153-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1153-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource154">
+     <float_array id="Zack-cover-1155-array" count="80">0.999253 -0.00946686 -0.0374612 -0.353663 -0.00228135 -0.982284 0.187382 0.129711 -0.0385721 -0.187155 -0.981568 -0.010891 0 0 0 1 0.999253 -0.00946686 -0.0374612 -0.353663 -0.00228135 -0.982284 0.187382 0.129711 -0.0385721 -0.187155 -0.981568 -0.010891 0 0 0 1 0.999253 -0.00946686 -0.0374612 -0.353663 -0.00228135 -0.982284 0.187382 0.129711 -0.0385721 -0.187155 -0.981568 -0.010891 0 0 0 1 0.999253 -0.00946686 -0.0374612 -0.353663 -0.00228135 -0.982284 0.187382 0.129711 -0.0385721 -0.187155 -0.981568 -0.010891 0 0 0 1 0.999253 -0.00946686 -0.0374612 -0.353663 -0.00228135 -0.982284 0.187382 0.129711 -0.0385721 -0.187155 -0.981568 -0.010891 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1155-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1156">
+     <input semantic="INPUT" source="#genericSource152"/>
+     <input semantic="OUTPUT" source="#genericSource154"/>
+    </sampler>
+    <channel source="#Zack-cover-1156" target="ULeg_R/SID_26"/>
+   </animation>
+   <animation id="keyframedAnimations157">
+    <source id="genericSource158">
+     <float_array id="Zack-cover-1159-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1159-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource160">
+     <float_array id="Zack-cover-1161-array" count="80">-0.999983 0.00221589 0.005456 0.015215 0.00560076 0.0716316 0.997415 2.40129 0.00181936 0.997428 -0.0716427 -0.133416 0 0 0 1 -0.999983 0.00221589 0.005456 0.015215 0.00560076 0.0716316 0.997415 2.40129 0.00181936 0.997428 -0.0716427 -0.133416 0 0 0 1 -0.999983 0.00221589 0.005456 0.015215 0.00560076 0.0716316 0.997415 2.40129 0.00181936 0.997428 -0.0716427 -0.133416 0 0 0 1 -0.999983 0.00221589 0.005456 0.015215 0.00560076 0.0716316 0.997415 2.40129 0.00181936 0.997428 -0.0716427 -0.133416 0 0 0 1 -0.999983 0.00221589 0.005456 0.015215 0.00560076 0.0716316 0.997415 2.40129 0.00181936 0.997428 -0.0716427 -0.133416 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1161-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1162">
+     <input semantic="INPUT" source="#genericSource158"/>
+     <input semantic="OUTPUT" source="#genericSource160"/>
+    </sampler>
+    <channel source="#Zack-cover-1162" target="HeadTop/SID_27"/>
+   </animation>
+   <animation id="keyframedAnimations163">
+    <source id="genericSource164">
+     <float_array id="Zack-cover-1165-array" count="5">0 0.143 0.25025 0.39325 0.5005 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1165-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource166">
+     <float_array id="Zack-cover-1167-array" count="80">0.997558 -0.013807 -0.0684593 2.98023e-08 0.00299792 0.987825 -0.155542 1.37242 0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 -0.013807 -0.0684593 2.98023e-08 0.00299792 0.987825 -0.155542 1.37242 0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 -0.013807 -0.0684593 2.98023e-08 0.00299792 0.987825 -0.155542 1.37242 0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 -0.013807 -0.0684593 2.98023e-08 0.00299792 0.987825 -0.155542 1.37242 0.0697734 0.154957 0.985454 0 0 0 0 1 0.997558 -0.013807 -0.0684593 2.98023e-08 0.00299792 0.987825 -0.155542 1.37242 0.0697734 0.154957 0.985454 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Zack-cover-1167-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Zack-cover-1168">
+     <input semantic="INPUT" source="#genericSource164"/>
+     <input semantic="OUTPUT" source="#genericSource166"/>
+    </sampler>
+    <channel source="#Zack-cover-1168" target="LLeg_L/SID_28"/>
+   </animation>
+  </animation>
+ </library_animations>
+ <library_visual_scenes>
+  <visual_scene id="scene169">
+   <node id="Zack-MRoot" name="Zack-MRoot">
+    <matrix>0.16 0 0 0 0 0.16 0 0 0 0 0.16 0 0 0 0 1 </matrix>
+    <node id="CommonRig" name="CommonRig">
+     <node id="Torso" name="Torso" type="JOINT">
+      <matrix sid="SID_14">1 0 2.38419e-07 0 2.38416e-07 -0.004786156 -0.9999885 0.2246058 1.14111e-09 0.9999885 -0.004786015 2.841107 0 0 0 1 </matrix>
+      <node id="Chest" name="Chest" type="JOINT">
+       <matrix sid="SID_5">0.9844095 -0.007858736 -0.1757162 -7.10543e-15 0.05375652 0.964644 0.2580157 1.54043 0.1674759 -0.263439 0.9500272 2.98023e-08 0 0 0 1 </matrix>
+       <node id="Neck" name="Neck" type="JOINT">
+        <matrix sid="SID_23">0.9519261 -0.030469 -0.3048092 7.45058e-09 -0.09471165 0.917012 -0.387452 1.214044 0.2913189 0.3976946 0.8700416 -2.98023e-08 0 0 0 1 </matrix>
+        <node id="HeadTop" name="HeadTop" type="JOINT">
+         <matrix sid="SID_27">-0.9999827 0.002215892 0.005456001 0.01521498 0.005600765 0.07163158 0.9974154 2.401286 0.001819357 0.9974285 -0.0716427 -0.1334164 0 0 0 1 </matrix>
+        </node>
+       </node>
+       <node id="UArm_L" name="UArm_L" type="JOINT">
+        <matrix sid="SID_8">-0.9697985 0.1935603 -0.1484096 0.9026281 0.001639277 0.6136247 0.7895961 1.298504 0.2439024 0.7655058 -0.5954096 0.3193552 0 0 0 1 </matrix>
+        <node id="LArm_L" name="LArm_L" type="JOINT">
+         <matrix sid="SID_13">0.008363383 0.9966303 0.0815942 0 -0.9971039 0.01447978 -0.07466024 1.094616 -0.0755901 -0.08073345 0.9938653 0 0 0 0 1 </matrix>
+         <node id="Hand_L" name="Hand_L" type="JOINT">
+          <matrix sid="SID_3">0.9727913 -0.1759815 0.1506903 5.96046e-08 0.2315503 0.7164742 -0.6580646 0.8694859 0.007841496 0.6750521 0.7377286 5.96046e-08 0 0 0 1 </matrix>
+          <node id="Hand_L_001" name="Hand_L_001" type="JOINT">
+           <matrix sid="SID_4">0.8727638 0.1901143 -0.4495999 0 -0.04407232 0.9479688 0.3152975 0.3309605 0.4861493 -0.2553654 0.8357316 0 0 0 0 1 </matrix>
+           <node id="Hand_L_002" name="Hand_L_002" type="JOINT">
+            <matrix sid="SID_1">0.8643906 -0.2905551 0.4103737 -5.96046e-08 -2.08616e-07 0.8161426 0.5778504 0.3874058 -0.5028208 -0.4994886 0.705466 1.19209e-07 0 0 0 1 </matrix>
+           </node>
+          </node>
+         </node>
+         <node id="LArm_L_001" name="LArm_L_001" type="JOINT">
+          <matrix sid="SID_20">0.8610557 0.443075 -0.2495349 -5.96046e-08 -0.5066894 0.7890605 -0.3473461 0.8694859 0.04299773 0.4255209 0.9039265 0 0 0 0 1 </matrix>
+          <node id="LArm_L_002" name="LArm_L_002" type="JOINT">
+           <matrix sid="SID_25">0.9840648 0.1681173 0.05790537 -2.98023e-08 -0.1778047 0.9329101 0.3131526 0.3006988 -0.001374111 -0.3184583 0.9479358 0 0 0 0 1 </matrix>
+           <node id="LArm_L_003" name="LArm_L_003" type="JOINT">
+            <matrix sid="SID_10">0.9315864 -0.350207 -0.09747951 -5.96046e-08 0.3515292 0.9361692 -0.003830165 0.2628666 0.09259865 -0.03069875 0.9952302 0 0 0 0 1 </matrix>
+           </node>
+          </node>
+         </node>
+        </node>
+       </node>
+       <node id="UArm_R" name="UArm_R" type="JOINT">
+        <matrix sid="SID_18">-0.9586136 -0.2774439 0.06391273 -0.6270724 -0.07105058 0.4505011 0.8899442 1.138808 -0.2757025 0.8485714 -0.4515691 0.6666622 0 0 0 1 </matrix>
+        <node id="LArm_R" name="LArm_R" type="JOINT">
+         <matrix sid="SID_11">0.3829769 -0.9201471 -0.08159389 0 0.918283 0.3888215 -0.0746601 1.094617 0.1004239 -0.04633306 0.9938653 4.76837e-07 0 0 0 1 </matrix>
+         <node id="Hand_R" name="Hand_R" type="JOINT">
+          <matrix sid="SID_6">0.9080197 0.3829882 -0.1697653 -2.98023e-08 -0.4029613 0.687674 -0.603926 0.869486 -0.1145533 0.6167855 0.7787511 0 0 0 0 1 </matrix>
+          <node id="Hand_R_001" name="Hand_R_001" type="JOINT">
+           <matrix sid="SID_24">0.8727637 -0.1901143 0.4495999 -1.19209e-07 0.04407237 0.947969 0.3152974 0.3309603 -0.4861493 -0.2553652 0.8357316 -5.96046e-08 0 0 0 1 </matrix>
+           <node id="Hand_R_002" name="Hand_R_002" type="JOINT">
+            <matrix sid="SID_7">0.8643907 0.2905553 -0.4103735 -5.96046e-08 1.3411e-07 0.8161424 0.5778506 0.3874059 0.5028208 -0.4994888 0.7054659 0 0 0 0 1 </matrix>
+           </node>
+          </node>
+         </node>
+         <node id="LArm_R_001" name="LArm_R_001" type="JOINT">
+          <matrix sid="SID_22">0.9440183 -0.2668968 0.1938958 5.96046e-08 0.3173313 0.8953149 -0.312589 0.8694861 -0.09016877 0.3566191 0.9298884 0 0 0 0 1 </matrix>
+          <node id="LArm_R_002" name="LArm_R_002" type="JOINT">
+           <matrix sid="SID_9">0.9840648 -0.1681174 -0.05790542 -5.96046e-08 0.177805 0.93291 0.3131526 0.3006988 0.001374185 -0.3184583 0.9479357 -1.19209e-07 0 0 0 1 </matrix>
+           <node id="LArm_R_003" name="LArm_R_003" type="JOINT">
+            <matrix sid="SID_19">0.931586 0.3502071 0.09747952 0 -0.3515293 0.9361689 -0.003830254 0.2628666 -0.09259869 -0.03069872 0.9952301 0 0 0 0 1 </matrix>
+           </node>
+          </node>
+         </node>
+        </node>
+       </node>
+      </node>
+      <node id="ULeg_L" name="ULeg_L" type="JOINT">
+       <matrix sid="SID_21">0.9988925 0.04686979 -0.004091497 0.3615707 0.04552045 -0.9847783 -0.1677487 0.1086634 -0.01189079 0.1673765 -0.9858171 0.02266791 0 0 0 1 </matrix>
+       <node id="LLeg_L" name="LLeg_L" type="JOINT">
+        <matrix sid="SID_28">0.9975584 -0.01380697 -0.06845929 2.98023e-08 0.002997922 0.9878248 -0.1555416 1.372419 0.06977335 0.1549566 0.9854543 0 0 0 0 1 </matrix>
+        <node id="Feet_L" name="Feet_L" type="JOINT">
+         <matrix sid="SID_15">-0.9975873 -0.06872597 0.009809494 0 -0.04339416 0.5070134 -0.8608451 1.138866 0.05418882 -0.8591936 -0.5087724 -5.96046e-08 0 0 0 1 </matrix>
+         <node id="Feet_L_001" name="Feet_L_001" type="JOINT">
+          <matrix sid="SID_17">1 1.78814e-06 4.0397e-05 0 1.83266e-05 0.8707457 -0.491734 0.6279713 -3.60757e-05 0.491734 0.8707454 1.19209e-07 0 0 0 1 </matrix>
+         </node>
+        </node>
+       </node>
+      </node>
+      <node id="ULeg_R" name="ULeg_R" type="JOINT">
+       <matrix sid="SID_26">0.9992532 -0.009466864 -0.03746116 -0.3536626 -0.002281348 -0.9822844 0.1873822 0.1297106 -0.03857212 -0.1871554 -0.9815679 -0.01089099 0 0 0 1 </matrix>
+       <node id="LLeg_R" name="LLeg_R" type="JOINT">
+        <matrix sid="SID_12">0.9975584 0.01380697 0.06845929 2.98023e-08 -0.00299792 0.9878247 -0.1555416 1.372419 -0.06977335 0.1549567 0.9854543 0 0 0 0 1 </matrix>
+        <node id="Feet_R" name="Feet_R" type="JOINT">
+         <matrix sid="SID_2">-0.9998143 -0.018637 -0.004906252 8.9407e-08 3.58373e-06 0.2543986 -0.9670994 1.138866 0.01927195 -0.96692 -0.2543513 -5.96046e-08 0 0 0 1 </matrix>
+         <node id="Feet_R_001" name="Feet_R_001" type="JOINT">
+          <matrix sid="SID_16">0.9999999 -1.80304e-06 -4.04641e-05 1.49012e-08 -1.8321e-05 0.8707454 -0.491734 0.6279714 3.61428e-05 0.491734 0.8707454 1.19209e-07 0 0 0 1 </matrix>
+         </node>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+  </visual_scene>
+ </library_visual_scenes>
+ <scene>
+  <instance_visual_scene url="#scene169"/>
+ </scene>
+</COLLADA>

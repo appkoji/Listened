@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ONLY FOR EDUCATIONAL PURPOSES</key>
+	<dict>
+		<key>Player Cameras</key>
+		<dict/>
+		<key>camera-player</key>
+		<string></string>
+		<key>camera-player-R1</key>
+		<string>From right side pointing to left</string>
+		<key>camera-player-far</key>
+		<string>far camera</string>
+		<key>camera-player-near</key>
+		<string>near camera - for interior</string>
+		<key>camera-player-top</key>
+		<string>top view. for maze</string>
+		<key>camera-player-top-far</key>
+		<string></string>
+		<key>New item</key>
+		<string></string>
+		<key>BLOCK &lt;&gt;</key>
+		<dict>
+			<key>WhenNPC Exclamate</key>
+			<dict>
+				<key>npcFunction</key>
+				<array>
+					<dict>
+						<key>npc</key>
+						<string>Zack</string>
+						<key>exclamate</key>
+						<string>Zack</string>
+					</dict>
+					<dict>
+						<key>npc</key>
+						<string>Zack</string>
+						<key>face!</key>
+						<string>Zack</string>
+						<key>delay</key>
+						<string>0.7</string>
+					</dict>
+				</array>
+				<key>autoTapAfter</key>
+				<string>1.0</string>
+			</dict>
+			<key>BlackOut -&gt; Camera Setup</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>blackOut</key>
+					<string>1.0</string>
+					<key>autoTapAfter</key>
+					<string>1.0</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>camera</key>
+					<string>???</string>
+					<key>autoTapAfter</key>
+					<string>1.0</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>fadeIn</key>
+					<string>1.0</string>
+					<key>autoTapAfter</key>
+					<string>1.0</string>
+				</dict>
+			</dict>
+			<key>Opens a door</key>
+			<dict>
+				<key>//</key>
+				<string>Function that opens the door</string>
+				<key>line</key>
+				<string>It&apos;s NOT even a town...</string>
+				<key>nodeFunction</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Tree-t-Door1</string>
+						<key>duration</key>
+						<string>3.0</string>
+						<key>timing</key>
+						<integer>1</integer>
+						<key>shakeAt</key>
+						<string>0.03/0.02</string>
+						<key>eulerAngle</key>
+						<string>0/90/0</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tree-t-Door2</string>
+						<key>duration</key>
+						<string>3.0</string>
+						<key>timing</key>
+						<integer>1</integer>
+						<key>eulerAngle</key>
+						<string>0/-90/0</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tree-t-Door1</string>
+						<key>delay</key>
+						<string>3.0</string>
+						<key>stopShake</key>
+						<string>0.2</string>
+					</dict>
+				</array>
+			</dict>
+			<key>wake up dead Kenny</key>
+			<dict>
+				<key>//</key>
+				<string>npc stands up</string>
+				<key>autoTapAfter</key>
+				<string>7.0</string>
+				<key>npcFunction</key>
+				<array>
+					<dict>
+						<key>runLoadedAnimation</key>
+						<true/>
+						<key>delay</key>
+						<string>0.0</string>
+					</dict>
+					<dict>
+						<key>delay</key>
+						<string>0.0</string>
+						<key>removeAnimation</key>
+						<string>dead</string>
+					</dict>
+					<dict>
+						<key>resetOverridenAnim</key>
+						<true/>
+						<key>delay</key>
+						<string>7.0</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Klinnita Waves Hand</key>
+			<dict>
+				<key>//</key>
+				<string>Klinnita looks at Kenny, smile + wave hands</string>
+				<key>autoTapAfter</key>
+				<string>7.0</string>
+				<key>npcFunction</key>
+				<array>
+					<dict>
+						<key>npc</key>
+						<string>Klinnita</string>
+						<key>face!</key>
+						<string>axsposmap3Entry</string>
+						<key>delay</key>
+						<string>0.3</string>
+					</dict>
+					<dict>
+						<key>npc</key>
+						<string>Klinnita</string>
+						<key>setFacialExpression</key>
+						<string>うれしい</string>
+						<key>playSingleAnimation</key>
+						<string>wave</string>
+						<key>delay</key>
+						<string>1.0</string>
+					</dict>
+					<dict>
+						<key>npc</key>
+						<string>Klinnita</string>
+						<key>setFacialExpression</key>
+						<string>ふつう</string>
+						<key>face!</key>
+						<string>klinnitaPos1800-2</string>
+						<key>delay</key>
+						<string>5.5</string>
+					</dict>
+				</array>
+			</dict>
+			<key>CorrectSeq</key>
+			<dict>
+				<key>sfx</key>
+				<string>correct.mp3</string>
+				<key>displayImage</key>
+				<string>GameAssets.scnassets/correctTex.png</string>
+				<key>autoTapAfter</key>
+				<string>2.0</string>
+			</dict>
+			<key>BlackOut to NEXT EVENT</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>blackOut</key>
+					<string>1.0</string>
+					<key>autoTapAfter</key>
+					<string>1.0</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>setProgress</key>
+					<string>16</string>
+					<key>jumpEvent</key>
+					<string>1816</string>
+				</dict>
+			</dict>
+			<key>obtainedItem</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>sfx</key>
+					<string></string>
+					<key>autoTapAfter</key>
+					<string>1.0</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>setProgress</key>
+					<string>16</string>
+					<key>jumpEvent</key>
+					<string>1816</string>
+				</dict>
+			</dict>
+			<key>dynamic-white-bang-bang!!</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>whiteOut</key>
+					<string>0.2</string>
+					<key>sfx</key>
+					<string>trauma.mp3</string>
+					<key>autoTapAfter</key>
+					<string>0.4</string>
+				</dict>
+				<key>1 - 2</key>
+				<dict>
+					<key>whiteOut</key>
+					<string>0.2</string>
+					<key>sfx</key>
+					<string>trauma.mp3</string>
+					<key>autoTapAfter</key>
+					<string>1.5</string>
+				</dict>
+			</dict>
+			<key>// - Event to accumulate tasks</key>
+			<string></string>
+			<key>create_progress</key>
+			<array>
+				<dict>
+					<key>//</key>
+					<string>EVENT PREPARATION</string>
+					<key>autoTapAfter</key>
+					<string>0.5</string>
+					<key>npcFunction</key>
+					<array>
+						<dict>
+							<key>npc</key>
+							<string>Claire</string>
+							<key>position</key>
+							<string>axsTest01</string>
+							<key>face</key>
+							<string>trigger-155</string>
+							<key>setEvent</key>
+							<string>1817-Claire$</string>
+						</dict>
+						<dict>
+							<key>position</key>
+							<string>axsKennypos-1</string>
+							<key>face</key>
+							<string>dtree-Tree-t-wall_015</string>
+						</dict>
+					</array>
+					<key>updateProgress</key>
+					<dict>
+						<key>// create new progress counter</key>
+						<string></string>
+						<key>key</key>
+						<string>buttoratEvent1</string>
+						<key>data</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</array>
+			<key>addProgress</key>
+			<array>
+				<dict>
+					<key>autoTapAfter</key>
+					<string>0.5</string>
+					<key>updateProgress</key>
+					<dict>
+						<key>key</key>
+						<string>buttoratEvent1</string>
+						<key>add</key>
+						<integer>1</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>jumpEvent</key>
+					<string>buttoratEvnt1-checkProgress</string>
+				</dict>
+			</array>
+			<key>if-incomplete</key>
+			<array>
+				<dict>
+					<key>line</key>
+					<string>There are still more Buttorats lurking in this forest...</string>
+				</dict>
+			</array>
+			<key>buttoratEvnt1-checkProgress</key>
+			<array>
+				<dict>
+					<key>loadProgress</key>
+					<dict>
+						<key>key</key>
+						<string>buttoratEvent1</string>
+						<key>equalsToNumber</key>
+						<integer>4</integer>
+						<key>incompleteEvent</key>
+						<string>buttoratEvnt1-inc</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>line</key>
+					<string>Let&apos;s report to Claire that the Buttorats are all gone!</string>
+				</dict>
+			</array>
+			<key>// - sudden anger</key>
+			<string></string>
+			<key>anger-1</key>
+			<dict>
+				<key>runSeq-closeUpToNpc</key>
+				<string>Claire</string>
+			</dict>
+			<key>anger-2</key>
+			<dict>
+				<key>narrator</key>
+				<string>Claire</string>
+				<key>line</key>
+				<string>THAT&apos;S NOT MY POINT!</string>
+				<key>angerText</key>
+				<true/>
+				<key>shudderCamera</key>
+				<string></string>
+				<key>fadeBGM</key>
+				<string>0.0/0.3</string>
+				<key>sfx</key>
+				<string>trauma.mp3</string>
+			</dict>
+		</dict>
+		<key>Game</key>
+		<dict>
+			<key>fadeIn</key>
+			<string>1.0</string>
+			<key>blackOut</key>
+			<string>1.0</string>
+			<key>whiteOutBriefly</key>
+			<string></string>
+			<key>whiteOut</key>
+			<string>1.0</string>
+			<key>camera</key>
+			<string>eventCam103-d01-fall</string>
+			<key>defaultCamera</key>
+			<string>/// brings back to default camera</string>
+			<key>defaultCamera!</key>
+			<string>Fades to default camera</string>
+			<key>fadeToCam</key>
+			<string>eventCam106-1</string>
+			<key>displayImage</key>
+			<string>image file name here</string>
+			<key>displayImageContinue</key>
+			<string>tells event controller to continue display the image...</string>
+			<key>displayCenterTapEllipse</key>
+			<string>displayCenterTapEllipse</string>
+			<key>dpadAllow</key>
+			<string></string>
+			<key>panCamera</key>
+			<dict>
+				<key>preCam</key>
+				<string>eventCam103-d01a</string>
+				<key>duration</key>
+				<string>10</string>
+				<key>camera</key>
+				<string>eventCam103-d01b</string>
+			</dict>
+			<key>setInstantCam</key>
+			<string>Hillary</string>
+			<key>panToInstantCam</key>
+			<string>shroomHDN-OItem-02</string>
+			<key>panInstantCam</key>
+			<string>Pan axisCam into worldPosition of NPC name, or node name set to this value -&gt; &quot;Hillary&quot; &quot;grass-m_034&quot;</string>
+			<key>playBGM</key>
+			<string>intro/0.4</string>
+			<key>fadeBGM</key>
+			<string>0.0/0.3</string>
+			<key>sfx</key>
+			<string>trauma.mp3 &lt;must include .mp3 extension&gt;</string>
+			<key>autoTapAfter</key>
+			<string></string>
+			<key>removeItemInfront</key>
+			<string>removes an item infront of player</string>
+			<key>narrator</key>
+			<string>0x3</string>
+			<key>clearNarrator</key>
+			<string></string>
+			<key>delayLine</key>
+			<string>2 &lt;enter number of seconds, to add a delay before line will display&gt;</string>
+			<key>readLine</key>
+			<string>Basama-106-1</string>
+			<key>line</key>
+			<string>Hello</string>
+			<key>lineJA</key>
+			<string>こんにちは</string>
+			<key>angerText</key>
+			<true/>
+			<key>centerText</key>
+			<string>KOJIMURATA.APP PRESENTS</string>
+			<key>registerAction</key>
+			<string>(imageName)actionKeyFind.png/(eventName)10100-KeyFind$</string>
+			<key>removeRegisterAction</key>
+			<string>(eventName to be removed)10100-KeyFind$</string>
+			<key>shudderCamera</key>
+			<string></string>
+			<key>nodeFunction</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>veggies-bangoOItem-102</string>
+					<key>//addProgressDat</key>
+					<string>unique key to add / event that checks</string>
+					<key>play3DSound</key>
+					<string>fileName:String / volume:Float (Play 3D sound only once)</string>
+					<key>add3DSound</key>
+					<string>fileName:String / volume:Float (Play 3D sound repetitively)</string>
+					<key>scnSoundReset</key>
+					<string>&quot;null&quot;</string>
+					<key>addProgressDat</key>
+					<string>day0Game1/Day0game-Check$</string>
+					<key>setEvent</key>
+					<string>D03-3</string>
+					<key>removeEvent</key>
+					<string>removes event set via &quot;setEvent&quot;</string>
+					<key>setObjectID</key>
+					<string>00x5</string>
+					<key>isHidden</key>
+					<false/>
+					<key>duration</key>
+					<string></string>
+					<key>delay</key>
+					<string></string>
+					<key>timing</key>
+					<string>NSNumber / 0:linear / 1:easeIn / 2:easeOut / 3:easeInEaseOut</string>
+					<key>addParticle</key>
+					<string></string>
+					<key>particleBirthRate</key>
+					<string></string>
+					<key>clearParticle</key>
+					<string></string>
+					<key>birthRate</key>
+					<string>can animate changes - implicit</string>
+					<key>shake   &lt;shakes node for earthquake fx&gt;</key>
+					<string>0.1</string>
+					<key>shakeAt</key>
+					<string>[0] speedOfShake / [1] rate / [2&lt;optional&gt;] blendInDuration</string>
+					<key>stopShake</key>
+					<string>duration  (default:0.06) /rate</string>
+					<key>position</key>
+					<string>axs-pos  &lt;&lt;&lt; will animate node to position at ease in and out</string>
+					<key>scale</key>
+					<string></string>
+					<key>localPosition</key>
+					<string>local position of the destination node</string>
+					<key>position-EI</key>
+					<string>axs-pos  &lt;&lt;&lt; will animate node to position with EI = Ease In</string>
+					<key>eulerAngle</key>
+					<string>0/0/0 must format input to x/y/z angles</string>
+					<key>opacity</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>npcFunction</key>
+			<array>
+				<dict>
+					<key>npc</key>
+					<string>Hillary</string>
+					<key>registerCompanion</key>
+					<string>Registers companion to go to Battle mode together...</string>
+					<key>resetActions</key>
+					<false/>
+					<key>encounterNPC</key>
+					<string>??? insert quizEnemy identifier</string>
+					<key>position</key>
+					<string>axspos-ln107evnt1</string>
+					<key>position!</key>
+					<string>axspos-ln107evnt1 - This position responds to delay and duration</string>
+					<key>copyAngle</key>
+					<string>&quot;enter the node which you want to copy its y.eulerAngle&quot;</string>
+					<key>prepareSingleAnimation</key>
+					<string>talk</string>
+					<key>playSingleAnimation</key>
+					<string>// instantly runs singular animation without preparation</string>
+					<key>playPauseAnimation</key>
+					<string></string>
+					<key>runLoadedAnimation</key>
+					<false/>
+					<key>removeAllAnimations</key>
+					<string>? enter duration (removes all animation)</string>
+					<key>removeAnimation</key>
+					<string>name of animation! / ?duration</string>
+					<key>overrideAnimation</key>
+					<string></string>
+					<key>overrideAnimationWithSFX</key>
+					<string>anim:(nameOfAnimation)/sfxName:(nameOfSFX with extension)/timing:(timing when animation action occur in the animation)/subjectNodeName:(node name where positional sfx will be applied)/particleAction:(nodeNameWith specific particle|time:birthrate;time:birthrate;...)</string>
+					<key>setFacialExpression</key>
+					<string>e.g ふつう | Changes to this facial expression. Responds to delay</string>
+					<key>setFacialExpression!</key>
+					<string>e.g ふつう | Set facial expression after blinking for one second. Responds to delay</string>
+					<key>isHidden</key>
+					<false/>
+					<key>face</key>
+					<string>Zack</string>
+					<key>face!</key>
+					<string>Zack</string>
+					<key>facePlayer</key>
+					<string></string>
+					<key>faceEachOther</key>
+					<string>0</string>
+					<key>exclamate</key>
+					<false/>
+					<key>quickJump2</key>
+					<string></string>
+					<key>setEvent</key>
+					<string>D03-3</string>
+					<key>delay</key>
+					<string>0.0</string>
+					<key>headLook</key>
+					<string>Zack</string>
+					<key>headLookRelease</key>
+					<string>Zack</string>
+				</dict>
+			</array>
+			<key>questionFunc</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>No</string>
+					<key>next</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Yes</string>
+					<key>battleEncounter</key>
+					<string>yb1</string>
+				</dict>
+			</array>
+			<key>/////////</key>
+			<string></string>
+			<key>updateProgress</key>
+			<dict>
+				<key>//</key>
+				<string>Create a new progress monitor for specific game event...</string>
+				<key>new</key>
+				<string>!warning! put this function only when creating new progress key. E.g. new task for player</string>
+				<key>key</key>
+				<string>specify a new of key</string>
+				<key>//2</key>
+				<string>data - a default value  which must be an NSNumber</string>
+				<key>data</key>
+				<integer>0</integer>
+				<key>//3</key>
+				<string>add - will add value assigned to add, on a existing data. Must be an NSNumber</string>
+				<key>add</key>
+				<integer>0</integer>
+			</dict>
+			<key>readProgressDat</key>
+			<dict>
+				<key>//</key>
+				<string>readProgressDat must be placed on [0] in every currentEvent</string>
+				<key>criteria</key>
+				<dict>
+					<key>title</key>
+					<false/>
+				</dict>
+				<key>incompleteEvent</key>
+				<string></string>
+			</dict>
+			<key>loadProgress</key>
+			<dict>
+				<key>key</key>
+				<string>buttoratEvent1</string>
+				<key>equalsToNumber</key>
+				<integer>4</integer>
+				<key>incompleteEvent</key>
+				<string>buttoratEvnt1-inc</string>
+			</dict>
+			<key>updateGameState</key>
+			<string>Day0e</string>
+			<key>saveData</key>
+			<false/>
+			<key>///</key>
+			<string></string>
+			<key>moveToMap</key>
+			<string>1800</string>
+			<key>jumpEvent</key>
+			<string>1800</string>
+			<key>setProgress</key>
+			<string>12</string>
+			<key>setProgress#</key>
+			<string>12 &lt;- Will set progress to this number, and load the suceeding event the progress is holding</string>
+			<key>/////</key>
+			<string></string>
+			<key>battleEncounter</key>
+			<string>Day0e</string>
+			<key>closeAndLoadMenu</key>
+			<string>(Finishes Game)</string>
+			<key>closeAndLoadGameStage</key>
+			<string>A2</string>
+			<key>runSeq-talkToNpc</key>
+			<string>Klinnita</string>
+			<key>runSeq-closeUpToNpc</key>
+			<string>Klinnita</string>
+			<key>loadDefaultCamera</key>
+			<string>Loads default camera</string>
+			<key>setOverworldProgress</key>
+			<array>
+				<string>Spawn-Hateki-yb1</string>
+				<string>dtree-Tree-t-wall-barricade</string>
+			</array>
+			<key>Block</key>
+			<dict>
+				<key>npcFunction</key>
+				<array>
+					<dict>
+						<key>npc</key>
+						<string>Zack</string>
+						<key>exclamate</key>
+						<string>Zack</string>
+						<key>delay</key>
+						<string>0.3</string>
+					</dict>
+				</array>
+				<key>autoTapAfter</key>
+				<string>1.3</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

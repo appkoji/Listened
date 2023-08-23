@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Event</key>
+	<dict>
+		<key>1000</key>
+		<array>
+			<dict>
+				<key>autoTapAfter</key>
+				<string>2.3</string>
+				<key>blackscreen</key>
+				<true/>
+				<key>camera</key>
+				<string>cam-event-1</string>
+				<key>canControlNpc</key>
+				<false/>
+				<key>npc</key>
+				<dict>
+					<key>animation</key>
+					<string>dead</string>
+					<key>position</key>
+					<string>axis1</string>
+					<key>rotation</key>
+					<string>axis1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>fadeIn</key>
+				<string>1.0</string>
+				<key>panCamera</key>
+				<dict>
+					<key>duration</key>
+					<string>2.0</string>
+					<key>nextCamera</key>
+					<string>cam-event-2</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<key>SceneScheme</key>
+	<dict>
+		<key>Awakening</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>
